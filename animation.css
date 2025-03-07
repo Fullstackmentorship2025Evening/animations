@@ -1,0 +1,144 @@
+.scale {
+    padding: 30px;
+    margin: 50px;
+    border: 2px solid blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    animation-name: boodbood;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.scale2 {
+    padding: 60px;
+    margin: 50px;
+    border: 2px solid blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 70px;
+    animation-name: boodbood;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform: translateY(500px)translateX(500px);
+    
+}
+
+@keyframes boodbood {
+    0% {
+        scale: 1.5;
+        opacity: 0.1;
+    }
+
+    50% {
+        scale: 1.0;
+        opacity: 0.5;
+    }
+
+    100% {
+        scale: 1.5;
+        opacity: 0.1;
+    }
+}
+
+/* transfor */
+.transfor {
+    padding: 10px;
+    margin: 30px;
+    background-color: blue;
+    width: 5px;
+    height: 25px;
+    border-radius: 50px;
+    animation-name: socsocod;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes socsocod{
+    0%{
+        transform: translateX(300px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}
+
+/* rotate */
+.rotate{
+    padding: 10px;
+    margin: 30px;
+    background-color: orange;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    animation-name: warwareeg;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes warwareeg{
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+/* color changing */
+h1{
+    text-align: center;
+    font-size: 60px;
+    animation-name: badbadal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+body{
+    /* animation-name: backs; */
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes badbadal{
+    0%{
+        color: red;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: orange;
+    }
+    75%{
+        color: blue;
+    }
+    100%{
+        color: black;
+    }
+}
+
+@keyframes backs{
+    0%{
+       background-color: red;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: black;
+    }
+}
